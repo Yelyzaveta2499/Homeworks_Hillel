@@ -8,8 +8,6 @@ public class Main {
         System.out.printf("Product No %d: %s,%n", productNo, product); //%d (Integer placeholder)
         System.out.printf("Total sales for %d days is EUR %.2f,%n", days, sales); //%s (String placeholder)
         System.out.printf("Sales by day is EUR %.2f.%n%n", sales / days);// %n (New line); %.2f --> Formats a floating-point number to 2 decimal places; \t --> Adds a tab space.
-
-
     }
 }
 
